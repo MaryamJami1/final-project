@@ -296,10 +296,11 @@ span {
     height: 400px;
     width: 265px;
     background-color: #fff;
-    margin: 15px;
+    margin: 25px;
     box-shadow: 2px 2px 3px 3px rgba(68, 67, 67, 0.201);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+
 }
 
 .border h2 {
@@ -407,3 +408,169 @@ margin-left: 80px;
     background-color: red;
 }
 
+.main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish.jpg);
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+#text_product {
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+    font-size: 45px;
+
+}
+
+#para {
+    text-align: center;
+    line-height: 3;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main_image a {
+    color: rgb(24, 206, 24);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.chicken_malai_main_image{
+    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish2.jpg);
+    height: 490px;
+    background-size: cover;
+    background-position: top;
+
+}
+
+.chicken_malai_main_image a {
+    color: rgb(24, 206, 24);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#malai_img{
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/chicken\ dish2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+
+}
+
+.Bihari_Boti_main_image{
+    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish3.jpg);
+    height: 490px;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+#Bihari_img{
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/chicken\ dish3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+
+}
+.Bihari_Boti_main_image a {
+    color: rgb(24, 206, 24);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Chicken_Karahi_main_image{
+    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish4.jpg);
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#karahi_img{
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/chicken\ dish4.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+
+}
+.Chicken_Karahi_main_image a {
+    color: rgb(24, 206, 24);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Chicken_Biryani_main_image{
+    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish5.jpg);
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#biryani_img{
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/chicken\ dish5.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+
+}
+.Chicken_Biryani_main_image a {
+    color: rgb(24, 206, 24);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Chicken_Nuggets_main_image{
+    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish6.jpg);
+    height: 490px;
+    background-size: cover;
+    background-position: top;
+
+}
+
+#nuggets_img{
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/chicken\ dish6.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+
+}
+.Chicken_Nuggets_main_image a {
+    color: rgb(24, 206, 24);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
