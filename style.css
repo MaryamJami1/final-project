@@ -1,0 +1,409 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Exo', sans-serif;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    box-shadow: 30px 10px 40px 30px rgba(0, 0, 0, 0.337);
+    
+}
+
+.image {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.text {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 5px;
+    line-height: 18px;
+}
+
+span {
+    color: rgb(90, 195, 90);
+    font-size: 12px;
+    font-weight: 200;
+
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    margin-left: 700px;
+    margin-top: 10px;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 700px;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(120, 200, 100);
+    border-radius: 18px;
+    color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: rgb(120, 200, 100);
+    border-radius: 15px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.dropbtn2 {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content2 a:hover {
+    background-color: rgb(120, 200, 100);
+    border-radius: 18px;
+    color: #f9f9f9;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+    color: rgb(120, 200, 100);
+    border-radius: 15px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.dropbtn3 {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 18px;
+}
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content3 a {
+    color: black;
+    margin-left: 0px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content3 a:hover {
+    background-color: rgb(120, 200, 100);
+    border-radius: 18px;
+    color: #f9f9f9;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+.dropdown3:hover .dropbtn3 {
+    color: rgb(120, 200, 100);
+    border-radius: 15px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.dropbtn4 {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn4:hover {
+    color: rgb(120, 200, 100);
+    border-radius: 15px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.pic {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/cover2.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#text_product {
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+    font-size: 45px;
+
+}
+
+#para {
+    text-align: center;
+    line-height: 3;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pic a {
+    color: rgb(24, 206, 24);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#chicken_text {
+    margin-top: 40px;
+    text-align: center;
+    /* line-height: 10px; */
+}
+
+#span_dishes {
+    color: green;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#trending {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.701);
+    margin-bottom: 0px;
+}
+
+
+#trending :hover {
+    color: orange;
+
+}
+
+.chicken {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.chicken div img {
+    height: 230px;
+    width: 265px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.border {
+    height: 400px;
+    width: 265px;
+    background-color: #fff;
+    margin: 15px;
+    box-shadow: 2px 2px 3px 3px rgba(68, 67, 67, 0.201);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.border h2 {
+    padding: 8px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.762);
+    font-size: 25px;
+
+}
+
+.border p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.485);
+    font-size: 14px;
+    line-height: 10px;
+}
+
+/* #image_para {
+    font-size: 14px;
+    line-height: 1;
+} */
+
+#price {
+    font-size: 25px;
+    line-height: 2;
+    color: rgba(255, 0, 0, 0.881);
+    padding-left: 100px;
+    font-weight: 900;
+}
+
+#Cart {
+    margin-left: 70px;
+    background-color: green;
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 35px;
+}
+
+#Cart a{
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#Cart:hover {
+    background-color: red;
+    font-size: 18px;
+    width: 125px;
+    height: 40px;
+}
+
+.chicken_tikka{
+    height:430px ;
+    display: flex;
+  
+
+}
+#tikka_img{
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/chicken\ dish.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+
+}
+
+#tikka_price{
+   margin-left: 80px;
+   margin-top: 70px;
+  
+}
+
+#tikka_price span{
+    font-size: 26px;
+    font-weight: 900;
+    color: red;
+}
+
+#tikka_para{
+color: rgb(26, 112, 83);
+margin-top: 50px;
+font-size: 18px;
+margin-left: 80px;
+}
+
+#cart_button{
+    margin-top: 40px;
+    margin-left:10px ;
+}
+
+#cart_button button{
+    width: 190px;
+    height: 50px;
+}
+
+#cart_button button:hover{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+}
+
