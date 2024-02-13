@@ -11,8 +11,6 @@
     width: 100%;
     background-color: white;
     display: flex;
-    position: fixed;
-    box-shadow: 30px 10px 40px 30px rgba(0, 0, 0, 0.337);
     
 }
 
@@ -61,7 +59,9 @@ span {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 18px;
+    
 }
+
 
 .dropdown {
     position: relative;
@@ -82,6 +82,7 @@ span {
     background-color: rgb(120, 200, 100);
     border-radius: 18px;
     color: #f9f9f9;
+    text-decoration: none;
 }
 
 .dropdown:hover .dropdown-content {
@@ -93,6 +94,7 @@ span {
     border-radius: 15px;
     text-decoration: underline;
     font-weight: bolder;
+  
 }
 
 .dropbtn2 {
@@ -134,6 +136,7 @@ span {
     background-color: rgb(120, 200, 100);
     border-radius: 18px;
     color: #f9f9f9;
+    text-decoration: none;
 }
 
 .dropdown2:hover .dropdown-content2 {
@@ -186,6 +189,7 @@ span {
     background-color: rgb(120, 200, 100);
     border-radius: 18px;
     color: #f9f9f9;
+    text-decoration: none;
 }
 
 .dropdown3:hover .dropdown-content3 {
@@ -217,12 +221,6 @@ span {
     font-weight: bolder;
 }
 
-.pic {
-    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/cover2.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: bottom;
-}
 
 #text_product {
     text-align: center;
@@ -240,17 +238,18 @@ span {
     font-weight: 600;
 }
 
-.pic a {
-    color: rgb(24, 206, 24);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
+
+#para a{
+ color: green;
+ text-decoration: none;
+
 }
+
 
 #chicken_text {
     margin-top: 40px;
     text-align: center;
-    /* line-height: 10px; */
+   
 }
 
 #span_dishes {
@@ -263,11 +262,11 @@ span {
 #trending {
     text-align: center;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
     font-weight: 300;
     letter-spacing: 2px;
     color: rgba(0, 0, 0, 0.701);
-    margin-bottom: 0px;
+
 }
 
 
@@ -281,63 +280,63 @@ span {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .chicken div img {
-    height: 230px;
-    width: 265px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    height: 180px;
+    width: 290px;
+  border-radius: 30px;
 
 }
 
 .border {
-    height: 400px;
-    width: 265px;
+    height: 365px;
+    width: 290px;
     background-color: #fff;
     margin: 25px;
     box-shadow: 2px 2px 3px 3px rgba(68, 67, 67, 0.201);
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-radius: 30px;
+    transition: .3s ease;
 
 }
 
+.border:hover{
+   transform: scale(1.1);
+}
+
 .border h2 {
-    padding: 8px;
+    padding-top: 10px;
     text-align: center;
     color: rgba(0, 0, 0, 0.762);
     font-size: 25px;
+    font-weight: 800;
 
 }
 
 .border p {
     text-align: center;
-    color: rgba(0, 0, 0, 0.485);
+    color: rgba(0, 0, 0, 0.63);
     font-size: 14px;
-    line-height: 10px;
 }
 
-/* #image_para {
-    font-size: 14px;
-    line-height: 1;
-} */
+
 
 #price {
     font-size: 25px;
-    line-height: 2;
     color: rgba(255, 0, 0, 0.881);
-    padding-left: 100px;
+    padding-left: 110px;
     font-weight: 900;
 }
 
 #Cart {
-    margin-left: 70px;
+    margin-left: 85px;
     background-color: green;
     border: none;
     width: 120px;
     height: 35px;
     border-radius: 35px;
+    transition: .3 ease-out;
+   
 }
 
 #Cart a{
@@ -349,9 +348,9 @@ span {
 
 #Cart:hover {
     background-color: red;
-    font-size: 18px;
-    width: 125px;
-    height: 40px;
+    transform: scale(1.1);
+
+
 }
 
 .chicken_tikka{
@@ -467,6 +466,7 @@ margin-left: 80px;
 
 }
 
+
 .Bihari_Boti_main_image{
     background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish3.jpg);
     height: 490px;
@@ -574,3 +574,4 @@ margin-left: 80px;
     font-size: 16px;
     font-weight: 600;
 }
+
