@@ -11,7 +11,7 @@
     width: 100%;
     background-color: white;
     display: flex;
-    
+
 }
 
 .image {
@@ -59,7 +59,7 @@ span {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 18px;
-    
+
 }
 
 
@@ -94,7 +94,7 @@ span {
     border-radius: 15px;
     text-decoration: underline;
     font-weight: bolder;
-  
+
 }
 
 .dropbtn2 {
@@ -222,26 +222,27 @@ span {
 }
 
 
-#text_product {
+/* #text_product {
     text-align: center;
     padding-top: 250px;
     color: white;
     font-size: 45px;
 
-}
+} */
 
-#para {
+/* #para {
     text-align: center;
     line-height: 3;
     color: white;
     font-size: 16px;
     font-weight: 600;
-}
+} */
 
 
-#para a{
- color: green;
- text-decoration: none;
+#para a {
+    color: rgb(53, 200, 53);
+    text-decoration: none;
+    font-size: 18px;
 
 }
 
@@ -249,7 +250,7 @@ span {
 #chicken_text {
     margin-top: 40px;
     text-align: center;
-   
+
 }
 
 #span_dishes {
@@ -275,6 +276,8 @@ span {
 
 }
 
+/* menu */
+
 .chicken {
     display: flex;
     justify-content: center;
@@ -285,7 +288,7 @@ span {
 .chicken div img {
     height: 180px;
     width: 290px;
-  border-radius: 30px;
+    border-radius: 30px;
 
 }
 
@@ -300,8 +303,8 @@ span {
 
 }
 
-.border:hover{
-   transform: scale(1.1);
+.border:hover {
+    transform: scale(1.1);
 }
 
 .border h2 {
@@ -315,7 +318,7 @@ span {
 
 .border p {
     text-align: center;
-    color: rgba(0, 0, 0, 0.63);
+    color: rgba(0, 0, 0, 0.847);
     font-size: 14px;
 }
 
@@ -336,10 +339,10 @@ span {
     height: 35px;
     border-radius: 35px;
     transition: .3 ease-out;
-   
+
 }
 
-#Cart a{
+#Cart a {
     text-decoration: none;
     color: #f9f9f9;
     font-size: 16px;
@@ -353,66 +356,15 @@ span {
 
 }
 
-.chicken_tikka{
-    height:430px ;
-    display: flex;
-  
+/* chicken files */
 
-}
-#tikka_img{
-    height: 350px;
-    width: 350px;
-    background-image: url(./assests/chicken\ dish.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-    margin-left: 90px;
-    margin-top: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
-
-}
-
-#tikka_price{
-   margin-left: 80px;
-   margin-top: 70px;
-  
-}
-
-#tikka_price span{
-    font-size: 26px;
-    font-weight: 900;
-    color: red;
-}
-
-#tikka_para{
-color: rgb(26, 112, 83);
-margin-top: 50px;
-font-size: 18px;
-margin-left: 80px;
-}
-
-#cart_button{
-    margin-top: 40px;
-    margin-left:10px ;
-}
-
-#cart_button button{
-    width: 190px;
-    height: 50px;
-}
-
-#cart_button button:hover{
-    width: 200px;
-    height: 60px;
-    background-color: red;
-}
 
 .main_image {
-    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish.jpg);
-    height: 490px;
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish.jpg);
+    height: 400px;
     background-size: cover;
     background-position: center;
-  
+
 }
 
 #text_product {
@@ -427,33 +379,86 @@ margin-left: 80px;
     text-align: center;
     line-height: 3;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
 }
 
-.carousel-caption a {
-    color: rgb(24, 206, 24);
+.chicken_tikka {
+    display: flex;
+
+}
+
+#tikka_img {
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/chicken\ dish.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
+
+}
+
+
+#tikka_img:hover {
+    transform: scale(1.1);
+}
+
+
+#tikka_price {
+    margin-left: 85px;
+    margin-top: 70px;
+
+}
+
+#tikka_price span {
+    font-size: 26px;
+    font-weight: 900;
+    color: red;
+}
+
+#tikka_para {
+    color: black;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 85px;
+}
+
+#cart_button {
+    margin-top: 30px;
+}
+
+
+
+/* .carousel-caption a {
+    color: rgb(74, 225, 74);
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-}
+} */
 
-.chicken_malai_main_image{
-    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish2.jpg);
-    height: 490px;
+
+/* chicken malai  */
+
+.chicken_malai_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish2.jpg);
+    height: 400px;
     background-size: cover;
     background-position: top;
 
 }
 
-.chicken_malai_main_image a {
+/* .chicken_malai_main_image a {
     color: rgb(24, 206, 24);
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-}
+} */
 
-#malai_img{
+#malai_img {
     height: 350px;
     width: 350px;
     background-image: url(./assests/chicken\ dish2.jpg);
@@ -462,20 +467,28 @@ margin-left: 80px;
     border-radius: 50%;
     margin-left: 90px;
     margin-top: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
 
 }
 
+#malai_img:hover {
+    transform: scale(1.1);
+}
 
-.Bihari_Boti_main_image{
-    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish3.jpg);
-    height: 490px;
+
+
+/* bihari boti */
+
+.Bihari_Boti_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish3.jpg);
+    height: 400px;
     background-size: cover;
     background-position: bottom;
 
 }
 
-#Bihari_img{
+#Bihari_img {
     height: 350px;
     width: 350px;
     background-image: url(./assests/chicken\ dish3.jpg);
@@ -484,25 +497,36 @@ margin-left: 80px;
     border-radius: 50%;
     margin-left: 90px;
     margin-top: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
 
 }
-.Bihari_Boti_main_image a {
+
+#Bihari_img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/* .Bihari_Boti_main_image a {
     color: rgb(24, 206, 24);
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-}
+} */
 
-.Chicken_Karahi_main_image{
-    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish4.jpg);
-    height: 490px;
+/* Chicken_Karahi */
+
+.Chicken_Karahi_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish4.jpg);
+    height: 400px;
     background-size: cover;
     background-position: center;
 
 }
 
-#karahi_img{
+#karahi_img {
     height: 350px;
     width: 350px;
     background-image: url(./assests/chicken\ dish4.jpg);
@@ -511,25 +535,36 @@ margin-left: 80px;
     border-radius: 50%;
     margin-left: 90px;
     margin-top: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
 
 }
-.Chicken_Karahi_main_image a {
+
+#karahi_img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* .Chicken_Karahi_main_image a {
     color: rgb(24, 206, 24);
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-}
+} */
 
-.Chicken_Biryani_main_image{
-    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish5.jpg);
-    height: 490px;
+
+/* Chicken_Biryani */
+
+.Chicken_Biryani_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish5.jpg);
+    height: 400px;
     background-size: cover;
     background-position: center;
 
 }
 
-#biryani_img{
+#biryani_img {
     height: 350px;
     width: 350px;
     background-image: url(./assests/chicken\ dish5.jpg);
@@ -538,25 +573,35 @@ margin-left: 80px;
     border-radius: 50%;
     margin-left: 90px;
     margin-top: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
 
 }
-.Chicken_Biryani_main_image a {
+
+#biryani_img:hover {
+    transform: scale(1.1);
+}
+
+
+/* .Chicken_Biryani_main_image a {
     color: rgb(24, 206, 24);
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-}
+} */
 
-.Chicken_Nuggets_main_image{
-    background-image: linear-gradient(rgba(192, 183, 183, 0.5), rgba(63, 61, 61, 0.5), rgba(98, 92, 92, 0.5)), url(./assests/chicken\ dish6.jpg);
-    height: 490px;
+
+/* nuggets  */
+
+.Chicken_Nuggets_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish6.jpg);
+    height: 400px;
     background-size: cover;
     background-position: top;
 
 }
 
-#nuggets_img{
+#nuggets_img {
     height: 350px;
     width: 350px;
     background-image: url(./assests/chicken\ dish6.jpg);
@@ -565,13 +610,189 @@ margin-left: 80px;
     border-radius: 50%;
     margin-left: 90px;
     margin-top: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692) ;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
 
 }
-.Chicken_Nuggets_main_image a {
+
+#nuggets_img:hover {
+    transform: scale(1.1);
+}
+/* .Chicken_Nuggets_main_image a {
     color: rgb(24, 206, 24);
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
+} */
+
+/* healthy files */
+
+/* keto diet */
+
+.Keto_Diet_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/anh-nguyen-kcA-c3f_3FE-unsplash.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#Keto_Diet_image {
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/anh-nguyen-kcA-c3f_3FE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
+
+}
+
+#Keto_Diet_image:hover {
+    transform: scale(1.1);
+}
+
+/* healthy meal */
+
+.Healthy_Meal_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/plate-with-keto-diet-food-cherry-tomatoes-chicken-breast-eggs-carrot-salad-with-arugula-spinach-keto-lunch-top-view.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+#Healthy_Meal_image {
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/plate-with-keto-diet-food-cherry-tomatoes-chicken-breast-eggs-carrot-salad-with-arugula-spinach-keto-lunch-top-view.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
+
+}
+
+#Healthy_Meal_image:hover {
+    transform: scale(1.1);
+}
+
+/* avacado */
+
+.Avacado_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/wesual-click-HK4n3W95F2c-unsplash.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#Avacado_image {
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/wesual-click-HK4n3W95F2c-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
+
+}
+
+#Avacado_image:hover {
+    transform: scale(1.1);
+}
+
+/* healthy tacos */
+
+.Healthy_Tacos_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/daniel-arriola-v-UlAEJTSVw-unsplash.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#Healthy_Tacos_image {
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/daniel-arriola-v-UlAEJTSVw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
+
+}
+
+#Healthy_Tacos_image:hover {
+    transform: scale(1.1);
+}
+
+/* iridinos */
+
+.Iridinos_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/michael-dagonakis-thR9H6aDmN8-unsplash.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#Iridinos_image {
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/michael-dagonakis-thR9H6aDmN8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
+
+}
+
+#Iridinos_image:hover {
+    transform: scale(1.1);
+}
+
+
+/* sandwich */
+
+.Sandwich_main_image {
+    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/seriously-low-carb-FZ4y_IDUJ6w-unsplash.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#Sandwich_image {
+    height: 350px;
+    width: 350px;
+    background-image: url(./assests/seriously-low-carb-FZ4y_IDUJ6w-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(1, 1, 1, 0.692);
+    transition: .3s ease;
+
+}
+
+#Sandwich_image:hover {
+    transform: scale(1.1);
 }
 
