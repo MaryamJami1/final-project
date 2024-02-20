@@ -1,71 +1,78 @@
-* {
+ * {
     margin: 0px;
     padding: 0px;
     box-sizing: 0px;
     font-family: 'Comfortaa', sans-serif;
     font-family: 'Exo', sans-serif;
 }
-
+.forfixing{
+    position:absolute;
+    width:100%;
+    display: contents;
+}
 .navbar {
-    height: 80px;
+    margin-bottom:0%;
+    height:90px;
     width: 100%;
-    background-color: white;
     display: flex;
-
+    background-image:url(./assests/veg_pattern_01.png);
+    background-color:rgb(227, 231, 184);
+ 
 }
 
 .image {
     height: 70px;
     width: 70px;
     display: flex;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 10px;
+    
 }
-
 .text {
-    color: black;
-    font-size: 30px;
+    color:white;
+    font-size: 35px;
     font-weight: 900;
-    padding-top: 20px;
-    padding-left: 5px;
+    padding-top: 17px;
+    padding-left: 2px;
     line-height: 18px;
 }
-
 span {
-    color: rgb(90, 195, 90);
-    font-size: 12px;
-    font-weight: 200;
+    color:rgb(90, 123, 34);
+    font-size: 15px;
+    font-weight:bold;
 
 }
-
 .dropbtn {
-    background-color: white;
-    color: black;
-    margin-left: 700px;
-    margin-top: 10px;
-    padding: 16px;
+    color: white;
+    margin-left: 550px;
+    margin-right: 15px;
+    margin-top: 25px;
+    padding: 13px;
+    padding-left:40px;
+    padding-right:45px;
     font-size: 18px;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    border-radius: 30px;
+    background-image:url(./assests/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
 }
 
 .dropdown-content {
-    display: none;
+    display:none;
     position: absolute;
-    margin-left: 700px;
+    margin-left: 550px;
     background-color: #f9f9f9;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 18px;
-
+   
 }
-
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: inline;
 
 }
 
@@ -79,10 +86,10 @@ span {
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(120, 200, 100);
+    background-color: rgb(142, 192, 56);
     border-radius: 18px;
     color: #f9f9f9;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .dropdown:hover .dropdown-content {
@@ -90,22 +97,27 @@ span {
 }
 
 .dropdown:hover .dropbtn {
-    color: rgb(120, 200, 100);
-    border-radius: 15px;
+    color:white;
+    border-radius: 30px;
     text-decoration: underline;
+    text-underline-offset: 10px;
     font-weight: bolder;
-
 }
 
 .dropbtn2 {
-    background-color: white;
-    color: black;
-    margin-top: 10px;
-    padding: 16px;
+    color: white;
+    margin-top: 25px;
+    margin-right: 15px;
+    padding: 13px;
+    padding-left:35px;
+    padding-right:30px;
     font-size: 18px;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    border-radius: 30px;
+    background-image:url(./assests/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
 }
 
 .dropdown-content2 {
@@ -113,7 +125,6 @@ span {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 18px;
 }
@@ -133,10 +144,10 @@ span {
 }
 
 .dropdown-content2 a:hover {
-    background-color: rgb(120, 200, 100);
+    background-color:rgb(142, 192, 56);
     border-radius: 18px;
     color: #f9f9f9;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .dropdown2:hover .dropdown-content2 {
@@ -144,21 +155,27 @@ span {
 }
 
 .dropdown2:hover .dropbtn2 {
-    color: rgb(120, 200, 100);
-    border-radius: 15px;
+    color:white;
+    border-radius: 30px;
     text-decoration: underline;
+    text-underline-offset: 10px;
     font-weight: bolder;
 }
 
 .dropbtn3 {
-    background-color: white;
-    color: black;
-    margin-top: 10px;
-    padding: 16px;
+    color:white;
+    margin-top: 25px;
+    margin-right: 15px;
+    padding: 13px;
+    padding-left:30px;
+    padding-right:30px;
     font-size: 18px;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    border-radius: 30px;
+    background-image:url(./assests/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
 }
 
 .dropdown-content3 {
@@ -166,7 +183,6 @@ span {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 18px;
 }
@@ -186,10 +202,10 @@ span {
 }
 
 .dropdown-content3 a:hover {
-    background-color: rgb(120, 200, 100);
+    background-color:rgb(142, 192, 56);
     border-radius: 18px;
     color: #f9f9f9;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .dropdown3:hover .dropdown-content3 {
@@ -197,52 +213,66 @@ span {
 }
 
 .dropdown3:hover .dropbtn3 {
-    color: rgb(120, 200, 100);
-    border-radius: 15px;
+    color:white;
+    border-radius: 30px;
     text-decoration: underline;
+    text-underline-offset: 10px;
     font-weight: bolder;
 }
 
 .dropbtn4 {
-    background-color: white;
-    color: black;
-    margin-top: 10px;
-    padding: 16px;
+    color:white;
+    margin-top: 25px;
+    padding: 13px;
+    margin-right: 15px;
+    padding-right: 35px;
+    padding-left:35px;
     font-size: 18px;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    border-radius: 30px;
+    background-image:url(./assests/veg_pattern_01.png);
+    background-color:rgb(142,192,56);
 }
 
 .dropbtn4:hover {
-    color: rgb(120, 200, 100);
-    border-radius: 15px;
+    color:white;
+    border-radius: 30px;
     text-decoration: underline;
+    text-underline-offset: 10px;
     font-weight: bolder;
 }
 
 
-/* #text_product {
-    text-align: center;
-    padding-top: 250px;
-    color: white;
-    font-size: 45px;
+.pic{
+background-image: linear-gradient(rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253)), url(./assests/mexican-tacos-with-beef-tomato-sauce-salsa.jpg);
+height: 430px;
+background-size: cover;
+background-position: top;
+}
 
-} */
-
-/* #para {
+#product {
     text-align: center;
-    line-height: 3;
+    padding-top:200px;
     color: white;
-    font-size: 16px;
+    font-size: 50px;
+
+} 
+
+#para_head{
+    text-align: center;
+    line-height: 2;
+    color: white;
+    font-size: 22px;
     font-weight: 600;
-} */
+}
 
 
-#para a {
-    color: rgb(53, 200, 53);
+#para_head a {
+    color: green;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
 
 }
 
@@ -356,11 +386,11 @@ span {
 
 }
 
-/* chicken files */
+/* seafood files */
 
-
+/* lobster */
 .main_image {
-    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish.jpg);
+    background-image: linear-gradient(rgba(156, 150, 150, 0.34), rgba(156, 150, 150, 0.466), rgba(156, 150, 150, 0.378)), url(./assests/katie-musial-TbgRGRSwlNo-unsplash.jpg);
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -391,7 +421,7 @@ span {
 #tikka_img {
     height: 350px;
     width: 350px;
-    background-image: url(./assests/chicken\ dish.jpg);
+    background-image: url(./assests/katie-musial-TbgRGRSwlNo-unsplash.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -432,36 +462,19 @@ span {
 }
 
 
+/* Tuna  */
 
-/* .carousel-caption a {
-    color: rgb(74, 225, 74);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-} */
-
-
-/* chicken malai  */
-
-.chicken_malai_main_image {
-    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish2.jpg);
+.Tuna_main_image {
+    background-image: linear-gradient(rgba(156, 150, 150, 0.34), rgba(156, 150, 150, 0.466), rgba(156, 150, 150, 0.378)), url(./assests/ca-creative-bpPTlXWTOvg-unsplash.jpg);
     height: 400px;
     background-size: cover;
-    background-position: top;
+    background-position: center;
 
 }
-
-/* .chicken_malai_main_image a {
-    color: rgb(24, 206, 24);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-} */
-
 #malai_img {
     height: 350px;
     width: 350px;
-    background-image: url(./assests/chicken\ dish2.jpg);
+    background-image: url(./assests/ca-creative-bpPTlXWTOvg-unsplash.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -478,20 +491,20 @@ span {
 
 
 
-/* bihari boti */
+/* Salmon */
 
-.Bihari_Boti_main_image {
-    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish3.jpg);
+.Salmon_main_image {
+    background-image: linear-gradient(rgba(156, 150, 150, 0.34), rgba(156, 150, 150, 0.466), rgba(156, 150, 150, 0.378)), url(./assests/viviana-rishe-zf8tA3L5wBc-unsplash.jpg);
     height: 400px;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 
 }
 
 #Bihari_img {
     height: 350px;
     width: 350px;
-    background-image: url(./assests/chicken\ dish3.jpg);
+    background-image: url(./assests/viviana-rishe-zf8tA3L5wBc-unsplash.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -506,20 +519,10 @@ span {
     transform: scale(1.1);
 }
 
+/* fish */
 
-
-
-/* .Bihari_Boti_main_image a {
-    color: rgb(24, 206, 24);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-} */
-
-/* Chicken_Karahi */
-
-.Chicken_Karahi_main_image {
-    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish4.jpg);
+.Fish_main_image {
+    background-image: linear-gradient(rgba(156, 150, 150, 0.34), rgba(156, 150, 150, 0.466), rgba(156, 150, 150, 0.378)), url(./assests/sebastian-coman-photography-Co-T6odt0es-unsplash.jpg);
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -529,8 +532,7 @@ span {
 #karahi_img {
     height: 350px;
     width: 350px;
-    background-image: url(./assests/chicken\ dish4.jpg);
-    background-position: center;
+    background-image: url(./assests/sebastian-coman-photography-Co-T6odt0es-unsplash.jpg);
     background-size: cover;
     border-radius: 50%;
     margin-left: 90px;
@@ -545,19 +547,10 @@ span {
 }
 
 
+/* Shrimps */
 
-/* .Chicken_Karahi_main_image a {
-    color: rgb(24, 206, 24);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-} */
-
-
-/* Chicken_Biryani */
-
-.Chicken_Biryani_main_image {
-    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish5.jpg);
+.Shrimps_main_image {
+    background-image: linear-gradient(rgba(156, 150, 150, 0.34), rgba(156, 150, 150, 0.466), rgba(156, 150, 150, 0.378)), url(./assests/vino-li-TqOEGdRNowY-unsplash.jpg);
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -567,8 +560,8 @@ span {
 #biryani_img {
     height: 350px;
     width: 350px;
-    background-image: url(./assests/chicken\ dish5.jpg);
-    background-position: top;
+    background-image: url(./assests/vino-li-TqOEGdRNowY-unsplash.jpg);
+    background-position: center;
     background-size: cover;
     border-radius: 50%;
     margin-left: 90px;
@@ -582,29 +575,20 @@ span {
     transform: scale(1.1);
 }
 
+/* scallops */
 
-/* .Chicken_Biryani_main_image a {
-    color: rgb(24, 206, 24);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-} */
-
-
-/* nuggets  */
-
-.Chicken_Nuggets_main_image {
-    background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/chicken\ dish6.jpg);
+.Scallops_main_image {
+    background-image: linear-gradient(rgba(156, 150, 150, 0.34), rgba(156, 150, 150, 0.466), rgba(156, 150, 150, 0.378)), url(./assests/laura-kennedy-d_zHk8-fdcM-unsplash.jpg);
     height: 400px;
     background-size: cover;
-    background-position: top;
+    background-position: center;
 
 }
 
 #nuggets_img {
     height: 350px;
     width: 350px;
-    background-image: url(./assests/chicken\ dish6.jpg);
+    background-image: url(./assests/laura-kennedy-d_zHk8-fdcM-unsplash.jpg);
     background-position: top;
     background-size: cover;
     border-radius: 50%;
@@ -618,12 +602,6 @@ span {
 #nuggets_img:hover {
     transform: scale(1.1);
 }
-/* .Chicken_Nuggets_main_image a {
-    color: rgb(24, 206, 24);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-} */
 
 /* healthy files */
 
@@ -902,136 +880,3 @@ transform: scale(1.1);
 
 }
 
-/* footer_start */
-
-.container{
-    max-width: 1170px;
-    margin: auto;
-}
-ul{
-    list-style: none;
-}
-.footer{
-    background-color: #24262b;
-    padding: 70px 0;
-}
-.footer-col{
-    width: 25%;
-    padding: 0 15px;
-}
-
-.pp{
-    margin-left: 44px;
-    color:white;
-    font-size: small;
-    
-
-}
-#ico{ 
-    margin-left:37px ;
-    color: rgba(109, 147, 26, 0.928);
-    font-size: larger;
-}
-#q{
-    color: rgba(109, 147, 26, 0.928);
-    margin-left: 60px;
-}
-ul li a{
-    color: white;
-    margin-left: 20px;
-}
-ul li a:hover{
-    color: rgba(109, 147, 26, 0.928);
-}
-#u{
-    color: rgba(109, 147, 26, 0.928);
-    margin-left: 60px;
-}
-#g{
-    color: rgba(109, 147, 26, 0.928);
-    font-size: 37px;
-}
-#yy{
-    color: rgba(109, 147, 26, 0.928);
-}
-#ii{
-    color: rgba(109, 147, 26, 0.928);
-    font-size: 15px;
-    display: flex;
-    display: inline;
-    margin-left: 10px;
-}
-#ww{
-    color: white;
-    margin-left:18px ;
-    margin-top: 10px;
-    font-size:small;
-}
-#ww:hover{
-    color: rgba(109, 147, 26, 0.928);
-}
-#hh{
-    color: white;
-    margin-left: 18px;
-    font-size: small;
-}
-#hh:hover{
-    color: rgba(109, 147, 26, 0.928);
-}
-#y{
-    color: rgba(109, 147, 26, 0.928);
-}
-#i{
-    color: rgba(109, 147, 26, 0.928);
-    font-size: 15px;
-    display: flex;
-    display: inline;
-    margin-left: 10px;
-}
-#w{ 
-    margin-left:18px ;
-    margin-top: 10px;
-    color: white;
-    font-size: small;
-}
-#w:hover{
-    color: rgba(109, 147, 26, 0.928);
-}
-#h{
-    margin-left:18px ;
-    color: white;
-    font-size: small;
-}
-#h:hover{
-    color: rgba(109, 147, 26, 0.928);
-}
-#r{
-    color: rgba(109, 147, 26, 0.928);
-    font-size: 33px;
-}
-#t{
- color: white;
-}
-.image1{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    padding-left: 30px;
-    
-}
-
-.text1{
-    color:white;
-    font-size: 30px;
-    font-weight: 900;
-    padding-left: 5px;
-    line-height: 18px;
-   padding-top: 15px;
-}
-
-.span1{
-    color: rgb(90, 195, 90);
-    font-size: 12px;
-    font-weight: 200;
-
-}
