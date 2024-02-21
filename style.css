@@ -616,8 +616,8 @@ background-position: top;
 }
 
 #Keto_Diet_image {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/anh-nguyen-kcA-c3f_3FE-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -644,8 +644,8 @@ background-position: top;
 }
 
 #Healthy_Meal_image {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/plate-with-keto-diet-food-cherry-tomatoes-chicken-breast-eggs-carrot-salad-with-arugula-spinach-keto-lunch-top-view.jpg);
     background-position: center;
     background-size: cover;
@@ -672,8 +672,8 @@ background-position: top;
 }
 
 #Avacado_image {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/wesual-click-HK4n3W95F2c-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -684,6 +684,7 @@ background-position: top;
     transition: .3s ease;
 
 }
+
 
 #Avacado_image:hover {
     transform: scale(1.1);
@@ -700,8 +701,8 @@ background-position: top;
 }
 
 #Healthy_Tacos_image {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/daniel-arriola-v-UlAEJTSVw-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -728,8 +729,8 @@ background-position: top;
 }
 
 #Iridinos_image {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/michael-dagonakis-thR9H6aDmN8-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -757,8 +758,8 @@ background-position: top;
 }
 
 #Sandwich_image {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/seriously-low-carb-FZ4y_IDUJ6w-unsplash.jpg);
     background-position: center;
     background-size: cover;
