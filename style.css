@@ -350,6 +350,8 @@ background-position: top;
     text-align: center;
     color: rgba(0, 0, 0, 0.847);
     font-size: 14px;
+  padding-top: 2px;
+    padding-bottom: 5px;
 }
 
 
@@ -357,12 +359,14 @@ background-position: top;
 #price {
     font-size: 25px;
     color: rgba(255, 0, 0, 0.881);
-    padding-left: 110px;
+    padding-left: 95px;
     font-weight: 900;
+    /* line-height: 1; */
 }
 
 #Cart {
     margin-left: 85px;
+    margin-top: 4px;
     background-color: green;
     border: none;
     width: 120px;
@@ -419,8 +423,8 @@ background-position: top;
 }
 
 #tikka_img {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/katie-musial-TbgRGRSwlNo-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -472,8 +476,8 @@ background-position: top;
 
 }
 #malai_img {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/ca-creative-bpPTlXWTOvg-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -502,8 +506,8 @@ background-position: top;
 }
 
 #Bihari_img {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/viviana-rishe-zf8tA3L5wBc-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -530,8 +534,8 @@ background-position: top;
 }
 
 #karahi_img {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/sebastian-coman-photography-Co-T6odt0es-unsplash.jpg);
     background-size: cover;
     border-radius: 50%;
@@ -558,8 +562,8 @@ background-position: top;
 }
 
 #biryani_img {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/vino-li-TqOEGdRNowY-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -586,8 +590,8 @@ background-position: top;
 }
 
 #nuggets_img {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     background-image: url(./assests/laura-kennedy-d_zHk8-fdcM-unsplash.jpg);
     background-position: top;
     background-size: cover;
