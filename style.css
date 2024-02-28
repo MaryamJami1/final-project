@@ -1119,12 +1119,12 @@
     
 
     .footer_content3 {
-       margin-left: 100px;
+       margin-left: 90px;
    }
 
 
     .footer_content4 {
-        margin-left: 100px;
+        margin-left: 90px;
     }
 
 
@@ -1155,15 +1155,16 @@
      }
 
      
-
      .footer_content3 {
-        margin-left: 60px;
+        margin-left: 90px;
     }
-
-
+ 
+ 
      .footer_content4 {
-         margin-left: 60px;
+         margin-left: 90px;
      }
+ 
+
 
      #icon_social, #icon_social2{
             font-size: 18px;
@@ -1188,24 +1189,24 @@
 
  @media (max-width:400px) {
      #empty {
-         margin-left: 20px;
+         margin-left: 10px;
          width: 300px;
      }
 
      #return {
-         margin-left: 20px;
+         margin-left: 10px;
 
      }
  }
 
  @media (max-width:800px) {
      #empty {
-         margin-left: 90px;
+         margin-left: 75px;
          width: 300px;
      }
 
      #return {
-         margin-left: 90px;
+         margin-left: 75px;
 
      }
  }
@@ -1215,40 +1216,40 @@
 
  @media (max-width:400px) {
      #Avacado_image {
-         height: 250px;
-         width: 250px;
+         height: 230px;
+         width: 230px;
          margin-left: 10px;
 
      }
 
      #Healthy_Meal_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
 
      }
 
      #Healthy_Tacos_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+         width: 230px;
          margin-left: 10px;
      }
 
      #Iridinos_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
      #Keto_Diet_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;;
          margin-left: 10px;
      }
 
      #Sandwich_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+         width: 230px;
          margin-left: 10px;
      }
 
@@ -1257,44 +1258,44 @@
 
 
      #karahi_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
      #tikka_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
      #Bihari_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
 
      #nuggets_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
      #biryani_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
      #malai_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
@@ -1323,40 +1324,40 @@
 
  @media (max-width:800px) {
      #Avacado_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
 
      }
 
      #Healthy_Meal_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
 
      }
 
      #Healthy_Tacos_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+         width: 230px;
          margin-left: 10px;
      }
 
      #Iridinos_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
      #Keto_Diet_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
      #Sandwich_image {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
@@ -1365,44 +1366,44 @@
 
 
      #karahi_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
      #tikka_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
      #Bihari_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
 
      #nuggets_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
      #biryani_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
 
      #malai_img {
-         height: 250px;
-         width: 250px;
+        height: 230px;
+        width: 230px;
          margin-left: 10px;
      }
 
