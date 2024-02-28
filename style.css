@@ -257,13 +257,16 @@
      background-size: cover;
      background-position: top;
  }
-/* 
+
+
+ /* cart header */
+ 
  .pic2 {
     background-image: linear-gradient(rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253)), url(./assests/mae-mu-dEUyLofZe5o-unsplash.jpg);
     height: 430px;
     background-size: cover;
     background-position: top;
-} */
+}
 
  #product {
      text-align: center;
@@ -1067,7 +1070,14 @@ padding-left: 5;
         margin-top: 250px;
     }
 
+    .smoothies{
+       
+          flex-direction: column;
+          height: 300px;
+          margin-bottom: 600px;
+          margin-top: 600px;
     
+    }
 }
 
 /* cart file */
