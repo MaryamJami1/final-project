@@ -260,13 +260,13 @@
 
 
  /* cart header */
- 
+
  .pic2 {
-    background-image: linear-gradient(rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253)), url(./assests/mae-mu-dEUyLofZe5o-unsplash.jpg);
-    height: 430px;
-    background-size: cover;
-    background-position: top;
-}
+     background-image: linear-gradient(rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253)), url(./assests/mae-mu-dEUyLofZe5o-unsplash.jpg);
+     height: 430px;
+     background-size: cover;
+     background-position: top;
+ }
 
  #product {
      text-align: center;
@@ -292,7 +292,7 @@
 
  }
 
- 
+
  #chicken_text {
      margin-top: 40px;
      text-align: center;
@@ -686,6 +686,7 @@
  .Avacado_main_image {
      background-image: linear-gradient(rgba(192, 183, 183, 0.297), rgba(192, 183, 183, 0.352), rgba(192, 183, 183, 0.352)), url(./assests/wesual-click-HK4n3W95F2c-unsplash.jpg);
      height: 400px;
+     width: 100%;
      background-size: cover;
      background-position: center;
 
@@ -903,230 +904,506 @@
 
  /* footer */
 
- .section{
-    height: 50%;
-    width: 100%;
-    margin-top: 80px;
-    background-image: url(./assests/veg_pattern_01.png);
-    background-color: rgb(227, 231, 184);
- }
-.footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  
- } 
-#footer_para{
-    color: rgba(0, 0, 0, 0.847);
-    font-size: 14px;
-    padding-top: 20px;
-    line-height: 3;
-    font-weight: 550;
-    width: 145%;
-
-}
-
- #icon_social{
-    color: rgb(129, 167, 47);
-    font-size: 28px;
-    padding-top: 10px;
-    transition: .3 ease;
-    padding-right: 15px;
+ .section {
+     height: 50%;
+     width: 100%;
+     margin-top: 80px;
+     background-image: url(./assests/veg_pattern_01.png);
+     background-color: rgb(227, 231, 184);
  }
 
- #icon_social:hover{
-transform: scale(1.2);
+ .footer {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+
  }
 
- #icon_social2{
-    color: rgb(129, 167, 47);
-    font-size: 28px;
-    padding-top: 20px;
-    padding-right: 15px;
+ #footer_para {
+     color: rgba(0, 0, 0, 0.847);
+     font-size: 14px;
+     padding-top: 20px;
+     line-height: 3;
+     font-weight: 550;
+     width: 145%;
+
+ }
+
+ #icon_social {
+     color: rgb(129, 167, 47);
+     font-size: 28px;
+     padding-top: 10px;
      transition: .3 ease;
-}
+     padding-right: 15px;
+ }
 
-#icon_social2:hover{
-transform: scale(1.2);
-}
+ #icon_social:hover {
+     transform: scale(1.2);
+ }
 
+ #icon_social2 {
+     color: rgb(129, 167, 47);
+     font-size: 28px;
+     padding-top: 20px;
+     padding-right: 15px;
+     transition: .3 ease;
+ }
 
-#icon{
-    color: rgb(129, 167, 47);
+ #icon_social2:hover {
+     transform: scale(1.2);
  }
 
 
- .footer_content2{
-width: 90%;
-margin-left: 10px;
-margin-top: 20px;
+ #icon {
+     color: rgb(129, 167, 47);
  }
 
 
-.footer_content2 h3{
-    color: rgb(129, 167, 47);
-    font-size: 30px;
-    margin-left: 70px;
-}
-
-.footer_content2 a{
-display: block;
-margin-top: 40px;
-text-decoration: none;
-color: black;
-margin-left: 70px;
-font-size: 20px;
-transition: .3s ease;
-}
+ .footer_content2 {
+     width: 90%;
+     margin-left: 10px;
+     margin-top: 20px;
+ }
 
 
-.footer_content2 a:hover{
-transform: scale(1.2);
-padding-left: 5;
-}
+ .footer_content2 h3 {
+     color: rgb(129, 167, 47);
+     font-size: 30px;
+     margin-left: 70px;
+ }
 
-.footer_content3{
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 20px;
+ .footer_content2 a {
+     display: block;
+     margin-top: 40px;
+     text-decoration: none;
+     color: black;
+     margin-left: 70px;
+     font-size: 20px;
+     transition: .3s ease;
+ }
+
+
+ .footer_content2 a:hover {
+     transform: scale(1.2);
+     padding-left: 5;
+ }
+
+ .footer_content3 {
+     width: 90%;
+     margin-left: 10px;
+     margin-top: 20px;
+ }
+
+ .footer_content3 h3 {
+     color: rgb(129, 167, 47);
+     font-size: 30px;
+     margin-left: 20px;
+ }
+
+
+ #contact,
+ #Phone {
+     margin-top: 35px;
+     color: rgb(129, 167, 47);
+     margin-left: 25px;
+     font-size: 20px;
+ }
+
+
+ #Location,
+ #Num {
+     margin-left: 35px;
+     margin-top: 10px;
+ }
+
+ .footer_content4 {
+     width: 70%;
+     margin-top: 20px;
+ }
+
+ .footer_content4 h3 {
+     color: rgb(129, 167, 47);
+     font-size: 30px;
+     margin-left: 5px;
+ }
+
+ .footer_content4 p {
+     margin-left: 10px;
+     margin-top: 25px;
+ }
+
+ .reserve {
+     height: 50px;
+     width: 100%;
+     position: absolute;
+     background-image: url(./assests/veg_pattern_01.png);
+     background-color: rgb(202, 205, 160);
+ }
+
+ #rights {
+     padding-left: 45px;
+     padding-top: 20px;
+     font-size: 14px;
+     color: rgba(0, 0, 0, 0.847);
+     font-weight: 550;
+ }
+
+ /* cart file */
+
+ #empty {
+     width: 720px;
+     height: 60px;
+     border-radius: 20px;
+     border: none;
+     margin-left: 300px;
+     margin-top: 100px;
+     text-align: left;
+     padding-left: 30px;
+     color: rgba(0, 0, 0, 0.589);
+     font-size: 16px;
+ }
+
+ #cart_icon {
+     color: rgb(129, 167, 47);
+     font-size: 18px;
+     padding-right: 10px;
+ }
+
+ .cart_main_div {
+     height: 300px;
+     width: 100%;
+
+ }
+
+ #return {
+     margin-left: 300px;
+     margin-top: 30px;
+     background-color: red;
+     border: none;
+     width: 180px;
+     height: 45px;
+     border-radius: 35px;
+     transition: .3 ease-out;
+
+ }
+
+ #return a {
+     text-decoration: none;
+     color: #f9f9f9;
+     font-size: 16px;
+     font-weight: 600;
+ }
+
+ #return:hover {
+     background-color: green;
+     transform: scale(1.1);
+
+ }
+
+
+
+ /* footer responsive */
+
+
+ @media (max-width:400px) {
+     .footer {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, min-width(300px, auto));
+         gap: 1.5rem;
      }
-    
- .footer_content3 h3{
-    color: rgb(129, 167, 47);
-    font-size: 30px;
-    margin-left: 20px;
- }
 
-
- #contact, #Phone{
-    margin-top: 35px;
-    color: rgb(129, 167, 47);
-    margin-left: 25px;
-    font-size: 20px;
- }
-
-
- #Location, #Num{
-    margin-left: 35px;
-    margin-top: 10px;
- }
-
- .footer_content4{
-    width: 70%;
-    margin-top: 20px;
+     .footer_content2 {
+         margin-top: 250px;
+         margin-left: 0px;
      }
-    
- .footer_content4 h3{
-    color: rgb(129, 167, 47);
-    font-size: 30px;
-    margin-left: 5px;
+
+     .footer_content4 {
+         margin-left: 30px;
+     }
+
+
+     /* smoothies */
+
+     .smoothies {
+
+         flex-direction: column;
+         height: 300px;
+         margin-bottom: 600px;
+         margin-top: 600px;
+
+     }
  }
 
- .footer_content4 p{
-    margin-left: 10px;
-    margin-top: 25px;
+ @media (max-width:800px) {
+     .footer {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, min-width(300px, auto));
+         gap: 1rem;
+
+     }
+
+
+     .footer_content2 {
+         margin-top: 250px;
+         margin-left: 0px;
+     }
+
+
+     .footer_content4 {
+         margin-left: 30px;
+     }
+
+
+     /* smoothies */
+
+     .smoothies {
+
+         flex-direction: column;
+         height: 300px;
+         margin-bottom: 600px;
+         margin-top: 600px;
+
+     }
  }
 
- .reserve{
-    height: 50px;
-    width: 100%;
-    position: absolute;
-    background-image: url(./assests/veg_pattern_01.png);
-    background-color: rgb(202, 205, 160);
-}
 
-#rights{
-    padding-left: 45px;
-    padding-top: 20px;
-    font-size: 14px;
-    color:  rgba(0, 0, 0, 0.847);
-    font-weight: 550;
-}
+ /* cart responsive */
+
+ @media (max-width:400px) {
+     #empty {
+         margin-left: 20px;
+         width: 300px;
+     }
+
+     #return {
+         margin-left: 20px;
+
+     }
+ }
+
+ @media (max-width:800px) {
+     #empty {
+         margin-left: 90px;
+         width: 300px;
+     }
+
+     #return {
+         margin-left: 90px;
+
+     }
+ }
 
 
-/* responsive */
+ /* healthy files responsive */
+
+ @media (max-width:400px) {
+     #Avacado_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+
+     }
+
+     #Healthy_Meal_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+
+     }
+
+     #Healthy_Tacos_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+     #Iridinos_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+     #Keto_Diet_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+     #Sandwich_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
 
 
-@media (max-width:400px){
-    .footer{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, min-width(300px, auto));
-        gap: 1.5rem;
-    }
-    
-    .footer_content2{
-        margin-top: 250px;
-    }
-}
+     /* sea food responsive */
 
-@media (max-width:600px){
-    .footer{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, min-width(300px, auto));
-        gap: 1rem;
-        
-    }
 
-    .footer_content2{
-        margin-top: 250px;
-    }
+     #karahi_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
 
-    .smoothies{
-       
-          flex-direction: column;
-          height: 300px;
-          margin-bottom: 600px;
-          margin-top: 600px;
-    
-    }
-}
 
-/* cart file */
+     #tikka_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
 
-#empty{
-    width: 720px;
-    height: 60px;
-    border-radius: 20px;
-   border: none;
-   margin-left: 300px;
-   margin-top: 100px;
-   text-align: left;
-   padding-left: 30px;
-   color:  rgba(0, 0, 0, 0.589);
-   font-size: 16px;
-}
 
-#cart_icon{
-    color: rgb(129, 167, 47);
-    font-size: 18px;
-    padding-right: 10px;
-}
+     #Bihari_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
 
-.cart_main_div{
-    height: 300px;
 
-}
 
-#return{
-    margin-left: 300px;
-    margin-top: 30px;
-    background-color:red;
-    border: none;
-    width: 180px;
-    height: 45px;
-    border-radius: 35px;
-    transition: .3 ease-out;
-    
-}
+     #nuggets_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
 
-#return a {
-text-decoration: none;
-color: #f9f9f9;
-font-size: 16px;
-font-weight: 600;
-}
 
-#return:hover {
- background-color: green;
-transform: scale(1.1);
+     #biryani_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
 
-}
+
+     #malai_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+
+     #tikka_para {
+
+         font-size: 12px;
+         margin-left: 15px;
+     }
+
+
+
+     #tikka_price {
+         margin-left: 15px;
+         margin-top: 70px;
+
+     }
+
+     #Cart {
+         margin-left: 15px;
+     }
+
+ }
+
+
+ @media (max-width:800px) {
+     #Avacado_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+
+     }
+
+     #Healthy_Meal_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+
+     }
+
+     #Healthy_Tacos_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+     #Iridinos_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+     #Keto_Diet_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+     #Sandwich_image {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+
+     /* sea food responsive */
+
+
+     #karahi_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+
+     #tikka_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+
+     #Bihari_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+
+
+     #nuggets_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+
+     #biryani_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+
+     #malai_img {
+         height: 250px;
+         width: 250px;
+         margin-left: 10px;
+     }
+
+
+     #tikka_para {
+
+         font-size: 12px;
+         margin-left: 15px;
+     }
+
+
+
+     #tikka_price {
+         margin-left: 15px;
+         margin-top: 70px;
+
+     }
+
+     #Cart {
+         margin-left: 15px;
+     }
+
+ }
