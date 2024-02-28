@@ -905,7 +905,7 @@
  /* footer */
 
  .section {
-     height: 50%;
+     height: 40%;
      width: 100%;
      margin-top: 80px;
      background-image: url(./assests/veg_pattern_01.png);
@@ -1112,13 +1112,20 @@
      }
 
      .footer_content2 {
-         margin-top: 250px;
-         margin-left: 0px;
-     }
+        margin-top: 270px;
+        margin-left: 0px;
+    }
 
-     .footer_content4 {
-         margin-left: 30px;
-     }
+    
+
+    .footer_content3 {
+       margin-left: 60px;
+   }
+
+
+    .footer_content4 {
+        margin-left: 60px;
+    }
 
 
      /* smoothies */
@@ -1143,13 +1150,19 @@
 
 
      .footer_content2 {
-         margin-top: 250px;
+         margin-top: 270px;
          margin-left: 0px;
      }
 
+     
+
+     .footer_content3 {
+        margin-left: 60px;
+    }
+
 
      .footer_content4 {
-         margin-left: 30px;
+         margin-left: 60px;
      }
 
      #icon_social, #icon_social2{
