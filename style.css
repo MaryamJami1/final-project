@@ -253,9 +253,17 @@
  .pic {
      background-image: linear-gradient(rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253)), url(./assests/mexican-tacos-with-beef-tomato-sauce-salsa.jpg);
      height: 430px;
+     width: 100%;
      background-size: cover;
      background-position: top;
  }
+/* 
+ .pic2 {
+    background-image: linear-gradient(rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253)), url(./assests/mae-mu-dEUyLofZe5o-unsplash.jpg);
+    height: 430px;
+    background-size: cover;
+    background-position: top;
+} */
 
  #product {
      text-align: center;
@@ -281,7 +289,7 @@
 
  }
 
-
+ 
  #chicken_text {
      margin-top: 40px;
      text-align: center;
@@ -358,7 +366,6 @@
      padding-top: 2px;
      padding-bottom: 5px;
  }
-
 
 
  #price {
@@ -893,93 +900,34 @@
 
  /* footer */
 
- .footer {
-     height: 350px;
-     width: 100%;
-     margin-top: 30px;
-     display: flex;
-     background-image: url(./assests/veg_pattern_01.png);
-     background-color: rgb(227, 231, 184);
+ .section{
+    height: 50%;
+    width: 100%;
+    margin-top: 80px;
+    background-image: url(./assests/veg_pattern_01.png);
+    background-color: rgb(227, 231, 184);
  }
-
- #ss2 {
-     color: rgb(129, 167, 47);
-     font-size: 15px;
-     font-weight: bold;
-
- }
-
- .headings {
-     height: 50px;
-     width: 65%;
-     position: absolute;
-     margin-left: 372px;
-     margin-top: 12px;
- 
- }
-
-
- .headings h1 {
-     display: inline;
-     padding-left: 75px;
-     color: rgb(129, 167, 47);
-
- }
-
-
- .footer_text {
-     height: 210px;
-     width: 100%;
-     /* background-color: aqua; */
-     margin-top: 20px;
-     position: absolute;
-     display: flex; 
- }
-
- #footer_para {
-     color: rgba(0, 0, 0, 0.847);
-     font-size: 17px;
-     padding-left: 50px;
-     line-height: 2;
-     font-weight: 550;
-     /* background-color: rgb(47, 255, 0); */
- }
-
- .explore_list{
-   margin-left: 110px;
-   /* background-color: rgb(255, 0, 217); */
- }
-
- .explore_list a{
-    text-decoration: none;
-    display: block;
-    padding-top: 35px;
-    font-size: 18px;
-    color:  rgba(0, 0, 0, 0.847);
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  
+ } 
+#footer_para{
+    color: rgba(0, 0, 0, 0.847);
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 3;
     font-weight: 550;
-    transition: .3s ease;
- }
+    width: 145%;
 
-
- .explore_list a:hover{
-transform: scale(1.2);
-padding-left: 10px;
- }
-
-
-#Home{
-    padding-top: 0px;
- }
-
- #icon{
-    color: rgb(129, 167, 47);
- }
+}
 
  #icon_social{
     color: rgb(129, 167, 47);
     font-size: 28px;
-    padding-top: 20px;
+    padding-top: 10px;
     transition: .3 ease;
+    padding-right: 15px;
  }
 
  #icon_social:hover{
@@ -990,7 +938,7 @@ transform: scale(1.2);
     color: rgb(129, 167, 47);
     font-size: 28px;
     padding-top: 20px;
-    padding-left: 60px;
+    padding-right: 15px;
      transition: .3 ease;
 }
 
@@ -999,3 +947,176 @@ transform: scale(1.2);
 }
 
 
+#icon{
+    color: rgb(129, 167, 47);
+ }
+
+
+ .footer_content2{
+width: 90%;
+margin-left: 10px;
+margin-top: 20px;
+ }
+
+
+.footer_content2 h3{
+    color: rgb(129, 167, 47);
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.footer_content2 a{
+display: block;
+margin-top: 40px;
+text-decoration: none;
+color: black;
+margin-left: 70px;
+font-size: 20px;
+transition: .3s ease;
+}
+
+
+.footer_content2 a:hover{
+transform: scale(1.2);
+padding-left: 5;
+}
+
+.footer_content3{
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+     }
+    
+ .footer_content3 h3{
+    color: rgb(129, 167, 47);
+    font-size: 30px;
+    margin-left: 20px;
+ }
+
+
+ #contact, #Phone{
+    margin-top: 35px;
+    color: rgb(129, 167, 47);
+    margin-left: 25px;
+    font-size: 20px;
+ }
+
+
+ #Location, #Num{
+    margin-left: 35px;
+    margin-top: 10px;
+ }
+
+ .footer_content4{
+    width: 70%;
+    margin-top: 20px;
+     }
+    
+ .footer_content4 h3{
+    color: rgb(129, 167, 47);
+    font-size: 30px;
+    margin-left: 5px;
+ }
+
+ .footer_content4 p{
+    margin-left: 10px;
+    margin-top: 25px;
+ }
+
+ .reserve{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    background-image: url(./assests/veg_pattern_01.png);
+    background-color: rgb(202, 205, 160);
+}
+
+#rights{
+    padding-left: 45px;
+    padding-top: 20px;
+    font-size: 14px;
+    color:  rgba(0, 0, 0, 0.847);
+    font-weight: 550;
+}
+
+
+/* responsive */
+
+
+@media (max-width:400px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, min-width(300px, auto));
+        gap: 1.5rem;
+    }
+    
+    .footer_content2{
+        margin-top: 250px;
+    }
+}
+
+@media (max-width:600px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, min-width(300px, auto));
+        gap: 1rem;
+        
+    }
+
+    .footer_content2{
+        margin-top: 250px;
+    }
+
+    
+}
+
+/* cart file */
+
+#empty{
+    width: 720px;
+    height: 60px;
+    border-radius: 20px;
+   border: none;
+   margin-left: 300px;
+   margin-top: 100px;
+   text-align: left;
+   padding-left: 30px;
+   color:  rgba(0, 0, 0, 0.589);
+   font-size: 16px;
+}
+
+#cart_icon{
+    color: rgb(129, 167, 47);
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.cart_main_div{
+    height: 300px;
+
+}
+
+#return{
+    margin-left: 300px;
+    margin-top: 30px;
+    background-color:red;
+    border: none;
+    width: 180px;
+    height: 45px;
+    border-radius: 35px;
+    transition: .3 ease-out;
+    
+}
+
+#return a {
+text-decoration: none;
+color: #f9f9f9;
+font-size: 16px;
+font-weight: 600;
+}
+
+#return:hover {
+ background-color: green;
+transform: scale(1.1);
+
+}
