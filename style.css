@@ -22,6 +22,20 @@
 
  }
 
+ #menu-bar{
+    display: none;
+ }
+
+ #menu-bar-label{
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 240px;
+    margin-top: 16px;
+    color: rgb(116, 162, 35);
+    visibility: hidden;
+ }
+
+ 
  .image {
      height: 70px;
      width: 70px;
@@ -47,9 +61,46 @@
 
  }
 
+ /* menu */
+ 
+ @media (max-width:400px) {
+    #menu-bar-label{
+        visibility: initial;
+        margin-left: 170px;
+       
+ }
+
+ .image {
+    height: 55px;
+    width: 55px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.text {
+  
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-left: 2px;
+    line-height: 15px;
+}
+
+span {
+    color: rgb(90, 123, 34);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+}
+
+
+
  .dropbtn {
      color: white;
-     margin-left: 550px;
+     margin-left: 220px;
      margin-right: 15px;
      margin-top: 25px;
      padding: 13px;
@@ -261,11 +312,11 @@
 
 
  .pic {
-     background-image: linear-gradient(rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253)), url(./assests/mexican-tacos-with-beef-tomato-sauce-salsa.jpg);
+     background-image: linear-gradient(rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253), rgba(175, 169, 169, 0.253)), url(./assests/pablo-merchan-montes-GFW3dJRiMsQ-unsplash.jpg);
      height: 430px;
      width: 100%;
      background-size: cover;
-     background-position: top;
+     background-position: bottom;
  }
 
 
@@ -296,7 +347,7 @@
 
 
  #para_head a {
-     color: green;
+     color: rgba(39, 234, 39, 0.881);
      text-decoration: none;
      font-size: 22px;
 
